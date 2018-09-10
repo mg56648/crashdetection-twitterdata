@@ -1,0 +1,21 @@
+1532118729195	geckodriver	INFO	geckodriver 0.19.1
+1532118729289	geckodriver	INFO	Listening on 127.0.0.1:52968
+1532118752280	geckodriver	INFO	geckodriver 0.19.1
+1532118752371	geckodriver	INFO	Listening on 127.0.0.1:52990
+1532119009280	geckodriver	INFO	geckodriver 0.19.1
+1532119009369	geckodriver	INFO	Listening on 127.0.0.1:53215
+1532119863018	geckodriver	INFO	geckodriver 0.19.1
+1532119863103	geckodriver	INFO	Listening on 127.0.0.1:53942
+1532119864342	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/ty/jkbx16qn02jfm_njdh2llj_c0000gp/T/rust_mozprofile.RxJKVgiFoW0l"
+2018-07-20 15:51:06.835 plugin-container[67651:12905984] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8503, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-20 15:51:07.144 plugin-container[67654:12906016] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x6c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1532119867791	Marionette	INFO	Listening on port 53955
+1532119867904	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-20 15:51:08.364 plugin-container[67657:12906130] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7a37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-89839004-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-89839004-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-89839004-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-89839004-1, line 69: unreachable code after return statement
