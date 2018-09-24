@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9976e671-d42c-47cc-954c-af9b64cd766b}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>lstm_independent.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="lr_single.py" />
+    <Compile Include="lr_multiple.py" />
+    <Compile Include="lstm_connected.py" />
+    <Compile Include="nn_multiple.py" />
+    <Compile Include="nn_single.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="plots.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common.py" />
+    <Compile Include="random_forest.py" />
+    <Compile Include="decision_tree.py" />
+    <Compile Include="gaussian_process.py" />
+    <Compile Include="svr_single.py" />
+    <Compile Include="svr_multiple.py" />
+    <Compile Include="svm_gridsearch.py" />
+    <Compile Include="lstm_common.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lstm_independent.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
