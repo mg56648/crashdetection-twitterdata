@@ -1,2 +1,2 @@
 # crashdetection-twitterdata
-Incident detection from twitter data - Transportation accounts and general users
+Deep learning framework for crash detection using Twitter data
